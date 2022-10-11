@@ -1,0 +1,11 @@
+-- -- lock doors
+-- Citizen.CreateThread(function()
+--     for k,v in pairs(Config.hoteldoor) do
+--         Citizen.InvokeNative(0xD99229FE93B46286,v,1,1,0,0,0,0)
+--         Citizen.InvokeNative(0x6BAB9442830C7F53,v,1)
+--     end
+-- end)
+
+-- RegisterNetEvent('no_key',function()
+-- 	exports['qbr-core']:Notify(9, 'Pas de clé', 5000, 0, 'mp_lobby_textures', 'cross', 'COLOR_WHITE')
+-- end)
